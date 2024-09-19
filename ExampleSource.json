@@ -1,0 +1,65 @@
+{
+    "name": "Army Launcher",
+    "subtitle": "Army Attack official source launcher",
+    "description": "Launcher app for every version of army attack",
+    "iconURL": "https://github.com/Michielvde1253/michielvde1253.github.io/blob/main/launcher/icons/21.png",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://armyattack.me/",
+    "tintColor": "#4185A9",
+    "featuredApps": [
+        "com.army.attack"
+    ],
+    "apps": [
+        {
+            "name": "Army Launcher",
+            "bundleIdentifier": "com.army.attack",
+            "developerName": "Crimson Team",
+            "subtitle": "Play, Fight, Defend your homeland",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/Michielvde1253/michielvde1253.github.io/blob/main/launcher/icons/21.png",
+            "tintColor": "#5CA399",
+            "screenshots": [
+                "https://framerusercontent.com/images/rHrJWJkn8fSowd1pxZXVUqs.webp?scale-down-to=1024",
+                "https://framerusercontent.com/images/dyqS7b1CLo8Cjtby7xGpV3yKiU.jpeg?scale-down-to=1024",
+                {
+                    "imageURL": "https://framerusercontent.com/images/rHrJWJkn8fSowd1pxZXVUqs.webp?scale-down-to=1024",
+                    "width": 2556,
+                    "height": 1179
+                }
+            ],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2022-05-01T09:00:00-08:00",
+                    "size": 20000000,
+                    "downloadURL": "https://gofile.io/d/mzta06",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.siri"
+                ],
+                "privacy": {
+                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
+                    "NSCameraUsageDescription": "App uses camera to take photos.",
+                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
+                }
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "App Update Available",
+            "identifier": "app_update",
+            "caption": "An update is available for My Example App.",
+            "date": "2023-03-10T10:00:00-07:00",
+            "tintColor": "#3660A2",
+            "imageURL": "https://framerusercontent.com/images/rHrJWJkn8fSowd1pxZXVUqs.webp?scale-down-to=1024",
+            "notify": false,
+            "appID": "com.army.attack"
+        }
+    ]
+}
